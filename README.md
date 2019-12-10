@@ -19,3 +19,5 @@ Google Fonts: https://fonts.google.com/
 
 I've also included an updated resume:
 ![My Resume](https://drive.google.com/file/d/1wmhrTjpWyGKMDr4e2lWYNcTgagFZs53P/view?usp=sharing "My Resume")
+
+https://drive.google.com/file/d/1wmhrTjpWyGKMDr4e2lWYNcTgagFZs53P/view?usp=sharing
