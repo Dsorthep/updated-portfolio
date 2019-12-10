@@ -1,6 +1,8 @@
 # updated-portfolio
 Homework #8
 
+https://dsorthep.github.io/updated-portfolio/
+
 Welcome to my Portfolio! My name is Det Sorthepharack and here you will find an updated portfolio that includes my first big group project along with two of my "best" homework assignments. 
 
 Also included are links to the deployed projects, as well as links to my LinkedIn and GitHub profiles. 
