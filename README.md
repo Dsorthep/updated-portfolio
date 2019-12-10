@@ -18,4 +18,5 @@ Google Fonts: https://fonts.google.com/
 
 
 I've also included an updated resume:
-![Resume](updated-portfolio-resume.pdf "My Resume")
+![Resume](assets/images/resume-1.png"My Resume")
+![Resume](assets/images/resume-2.png"My Resume")
