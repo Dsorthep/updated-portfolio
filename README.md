@@ -18,5 +18,4 @@ Google Fonts: https://fonts.google.com/
 
 
 I've also included an updated resume:
-![Resume](assets/images/resume-1.png"My Resume")
-![Resume](assets/images/resume-2.png"My Resume")
+![My Resume](https://drive.google.com/file/d/1wmhrTjpWyGKMDr4e2lWYNcTgagFZs53P/view?usp=sharing "My Resume")
