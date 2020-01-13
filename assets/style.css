@@ -31,7 +31,14 @@
     max-height: 50%;
     align-content: center;
 }
+.contact-info {
+    text-align: center;
+}
 .content {
+    text-align: center;
+    color: black;
+}
+.content-title {
     text-align: center;
     color: black;
 }
