@@ -21,6 +21,7 @@
     background-image: url("./images/show-me-urs.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
+    overflow: hidden;
     background-size: 100%;
     
 
@@ -38,20 +39,26 @@
     font-family: 'Roboto', sans-serif;
 }
 
-#logo {
+#logo1 {
     font-family: 'Megrim', cursive;
     font-size: 50px;
+    color: white;
+}
+
+#logo2 {
+    font-family: 'Megrim', cursive;
+    font-size: 50px;
+    color: hsl(61, 100%, 52%);
+}
+
+.navbar-item {
+    font-size: 20px;
 }
 
 .title {
     padding-top: 20px;
     text-align: center;
     color: white;
-}
-
-#self-image {
-    max-width: 70%;
-    max-height: 70%;
 }
 
 .bio {
@@ -76,18 +83,6 @@
     color: white;
 }
 
-.contact-info {
-    text-align: left;
-    margin: 50px;
-}
-
-.content-contact {
-    font-size: 20px;
-    text-align: left;
-    margin: 50px;
-    color: white;
-}
-
 .content-title {
     text-align: center;
     color: white;
@@ -97,34 +92,14 @@
     align-content: flex-start;
 }
 
-.fab {
-    background: transparent;
-    max-width: 100%;
-    max-height: 100%;
+.foot-icons {
+    content: " ";
+    display: inline-block;
+    width: 150px;
 }
-
-.icons {
-    padding-right: 900px;
-    align-content: right;
-    padding-top: 200px;
-    padding-bottom: 200px;
-}
-
-.icon-text {
-    /* font-family: 'Farsan', cursive; */
-    font-family: 'Rouge Script', cursive;
-    font-size: 45px;
-    color: white;
-    text-align: right;
-}
-/* .button {
-    margin-left: 50px;
-    font-size: 100px;
-    align-self: left;
-} */
 
 .footer {
-    position: relative;
+    position: sticky;
     left: 0;
     bottom: 0;
     width: 100%;
