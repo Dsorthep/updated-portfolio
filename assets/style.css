@@ -71,12 +71,37 @@
     padding-bottom: 250px;
 } 
 
-#work-image {
-    margin-left: 300px;
-    max-width: 50%;
-    max-height: 50%;
-    align-content: center;
+/* .port-container {
+    padding-bottom: -200px;
+} */
+
+.port-text {
+    font-size: 35px;
+    color: white;
+    font-style: italic;
+    margin-top: 550px;
+    margin-left: 25px;
 }
+
+.circular--landscape {
+    display: inline-block;
+    position: relative;
+    width: 250px;
+    height: 250px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-top: 30px;
+    margin-left: 75px;
+    margin-bottom: 0px;
+    
+
+  }
+  
+  .circular--landscape img {
+    width: auto;
+    height: 100%;
+    margin-bottom: 10px;
+  }
 
 .content {
     text-align: center;
