@@ -1,35 +1,23 @@
 .open {
-    /* background: #E6DADA;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #274046, #E6DADA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-    /* image-orientation: inherit; */
-    
     position: fixed;
     height: auto;
     image-orientation: inherit;
-
-
-    
 }
 
-
-.body2 {
-    /* background: #E6DADA;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #274046, #E6DADA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+.body2 { 
     background-image: url("./images/flamingo.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: 100%;
+    overflow: hidden;
+    height: 100%;
+
     
 
     font-family: 'Roboto', sans-serif;
 }
 
 .body3 {
-    /* background: #E6DADA;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #274046, #E6DADA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     background-image: url("./images/show-me-urs.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
@@ -40,13 +28,11 @@
 }
 
 .body4 {
-    /* background: #E6DADA;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to top, #274046, #E6DADA);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to top, #274046, #E6DADA); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
     background-image: url("./images/rainbow-heart.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: 100%;
+    overflow: hidden;
     
 
     font-family: 'Roboto', sans-serif;
@@ -56,21 +42,28 @@
     font-family: 'Megrim', cursive;
     font-size: 50px;
 }
+
 .title {
     padding-top: 20px;
     text-align: center;
     color: white;
 }
+
 #self-image {
     max-width: 70%;
     max-height: 70%;
 }
+
 .bio {
     color: white;
     font-size: 20px;
-    text-align: justify;
-    padding-top: 100px;
+    text-align: center;
+    padding-top: 300px;
+    padding-left: 600px;
+    padding-right: 100px;
+    padding-bottom: 250px;
 } 
+
 #work-image {
     margin-left: 300px;
     max-width: 50%;
@@ -94,24 +87,48 @@
     margin: 50px;
     color: white;
 }
+
 .content-title {
     text-align: center;
     color: white;
 }
+
 .container {
     align-content: flex-start;
 }
+
 .fab {
     background: transparent;
     max-width: 100%;
     max-height: 100%;
 }
-.button {
+
+.icons {
+    padding-right: 900px;
+    align-content: right;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
+
+.icon-text {
+    /* font-family: 'Farsan', cursive; */
+    font-family: 'Rouge Script', cursive;
+    font-size: 45px;
+    color: white;
+    text-align: right;
+}
+/* .button {
     margin-left: 50px;
     font-size: 100px;
     align-self: left;
-}
+} */
 
 .footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: black;
-}
+    color: white;
+    text-align: center;
+  }
