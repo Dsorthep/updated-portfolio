@@ -59,7 +59,7 @@
 #logo2 {
     font-family: 'Megrim', cursive;
     font-size: 50px;
-    color: hsl(61, 100%, 52%);
+    color: #fbff0a;
 }
 
 .navbar-item {
@@ -179,9 +179,10 @@
     font-size: 20px;
 }
 
-.contact-form {
-    padding-top: 100px;
-    margin-bottom: -100px;
+#contact-form {
+    padding-top: 10px;
+    margin-bottom: 100px;
+    padding-left: 50px;
 }
 
 .field {
