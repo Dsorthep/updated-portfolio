@@ -5,34 +5,45 @@
 }
 
 .body2 { 
-    background-image: url("./images/flamingo.jpg");
+    /* background-image: url("./images/flamingo.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: 100%;
     overflow: hidden;
+    height: 100%;  */
+    background: url("./images/flamingo.jpg") no-repeat center center fixed;
+    background-size: cover;
     height: 100%;
-
+    overflow: hidden;
     
 
     font-family: 'Roboto', sans-serif;
 }
 
 .body3 {
-    background-image: url("./images/show-me-urs.jpg");
+    /* background-image: url("./images/show-me-urs.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
     overflow: hidden;
-    background-size: 100%;
+    background-size: 100%; */
+    background: url("./images/show-me-urs.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
+    overflow: hidden;
     
 
     font-family: 'Roboto', sans-serif;
 }
 
 .body4 {
-    background-image: url("./images/rainbow-heart.jpg");
+    /* background-image: url("./images/rainbow-heart.jpg");
     background-repeat: no-repeat;
     background-position: inherit;
     background-size: 100%;
+    overflow: hidden; */
+    background: url("./images/rainbow-heart.jpg") no-repeat center center fixed;
+    background-size: cover;
+    height: 100%;
     overflow: hidden;
     
 
@@ -79,7 +90,7 @@
     font-size: 35px;
     color: white;
     font-style: italic;
-    margin-top: 550px;
+    margin-top: 375px;
     margin-left: 25px;
 }
 
@@ -90,9 +101,9 @@
     height: 250px;
     overflow: hidden;
     border-radius: 50%;
-    margin-top: 30px;
+    margin-top: 50px;
     margin-left: 75px;
-    margin-bottom: 0px;
+    margin-bottom: 100px;
     
 
   }
@@ -102,6 +113,23 @@
     height: 100%;
     margin-bottom: 10px;
   }
+.modal {
+    padding-top: 25px;
+}
+
+.modal-content {
+    color: black;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    background-color: white;
+    font-weight: bold;
+    padding-bottom: 15px;
+}
+.modal-title {
+    color: black;
+    font-weight: bolder;
+    font-size: 20px;
+}
 
 .content {
     text-align: center;
@@ -136,12 +164,12 @@
 
 .contact-form {
     padding-top: 100px;
+    margin-bottom: -100px;
 }
 
 .field {
     width: 40%;
     padding-left: 100px;
-
 }
 
 .foot-icons {
