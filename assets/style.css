@@ -168,16 +168,23 @@
     width: 40%;
 }
 
+.contact-icons {
+    color: white;
+    font-size: 20px;
+    padding: 40px;
+    align-items: center;
+}
+
 .contact-h-text {
     color: white;
     font-size: 35px;
     font-style: italic;
 }
 
-.contact-p-text {
+/* .contact-p-text {
     color: white;
     font-size: 20px;
-}
+} */
 
 #contact-form {
     padding-top: 10px;
@@ -200,6 +207,16 @@
     position: sticky;
     left: 0;
     bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+  }
+
+  .contact-footer {
+    position: sticky;
+    left: 0;
+    margin: 40px;
     width: 100%;
     background-color: black;
     color: white;
